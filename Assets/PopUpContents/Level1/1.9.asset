@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 1.9
+  m_EditorClassIdentifier: 
+  level: 1
+  title: "Nemo a\xE7 g\xF6z\xFCk\xFCyor"
+  description: "Mutlu bal\u0131k mutlu i\u015F ortam\u0131 demektir."
+  optionText1: Nemoyu besle
+  resultTitle1: "Nemo ileri geri y\xFCz\xFCyor, \xE7ok tatl\u0131!"
+  resultDescription1: "-5 \u0130\u015F"
+  workLoad1: -5
+  money1: 0
+  optionText2: "\u015Eimdi de\u011Fil"
+  resultTitle2: "Nemo \xFCzg\xFCn \xFCzg\xFCn y\xFCz\xFCyor."
+  resultDescription2: "-5 \u0130\u015F\t\t+5 Para"
+  workLoad2: -5
+  money2: 5

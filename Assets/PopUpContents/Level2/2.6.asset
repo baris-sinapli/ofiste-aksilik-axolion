@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 2.6
+  m_EditorClassIdentifier: 
+  level: 2
+  title: "Bir mail ald\u0131n!"
+  description: "\xC7ok \u015Fansl\u0131s\u0131n 5,000\u20BA de\u011Ferinde indirim
+    kazand\u0131n!"
+  optionText1: "Hemen bu \u015Fans\u0131 de\u011Ferlendir"
+  resultTitle1: "Anla\u015F\u0131lan bu bir vir\xFCsm\xFC\u015F. \u015Eirket bilgisayar\u0131na
+    format atmak gerekecek"
+  resultDescription1: -15 Para
+  workLoad1: 0
+  money1: -15
+  optionText2: "Spam olarak i\u015Faretle"
+  resultTitle2: "Herhalde bu kadar bilin\xE7li olaca\u011F\u0131n\u0131 d\xFC\u015F\xFCnmemi\u015Flerdir"
+  resultDescription2: "-5 \u0130\u015F"
+  workLoad2: -5
+  money2: 0

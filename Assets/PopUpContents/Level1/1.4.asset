@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 1.4
+  m_EditorClassIdentifier: 
+  level: 1
+  title: Kalemlerin sorunu ne?
+  description: "T\xFCkenmez kalemler niye bir anda yazmay\u0131 kesti ki?"
+  optionText1: "Kalemi \xC7alkala"
+  resultTitle1: "UFF, kaleminin ucu patlad\u0131! \xDCst\xFCn ba\u015F\u0131n m\xFCrekkep
+    oldu."
+  resultDescription1: "+5 \u0130\u015F"
+  workLoad1: 5
+  money1: 0
+  optionText2: "Kur\u015Fun kalem niye icat edildi ki?"
+  resultTitle2: "Bu i\u015F i\xE7in de\u011Fil, hangi dok\xFCman kur\u015Fun kalemle
+    yaz\u0131l\u0131yor ki?"
+  resultDescription2: "+5 \u0130\u015F"
+  workLoad2: 5
+  money2: 0

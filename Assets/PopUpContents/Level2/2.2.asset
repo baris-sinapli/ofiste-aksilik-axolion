@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 2.2
+  m_EditorClassIdentifier: 
+  level: 2
+  title: "Masa Kurtlar\u0131?!"
+  description: "Ofisteki t\xFCm masalar\u0131n kurtland\u0131\u011F\u0131 ortaya
+    \xE7\u0131kt\u0131. T\xFCm ofisin ila\xE7lanmas\u0131 laz\u0131m."
+  optionText1: "T\xFCh be"
+  resultTitle1: "Zorunlu tatil, ama eve d\xF6nerken yolda para buldun! \u015Eansl\u0131
+    seni."
+  resultDescription1: +5 Para
+  workLoad1: 0
+  money1: 5
+  optionText2: "Maskeler ne g\xFCne duruyor?"
+  resultTitle2: "Maskende delik varm\u0131\u015F, Humbledoor seni bay\u0131lm\u0131\u015F
+    halde buldu"
+  resultDescription2: "+10 \u0130\u015F"
+  workLoad2: 10
+  money2: 0

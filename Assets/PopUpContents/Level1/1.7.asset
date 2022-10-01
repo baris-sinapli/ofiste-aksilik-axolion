@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 1.7
+  m_EditorClassIdentifier: 
+  level: 1
+  title: "Toplant\u0131!"
+  description: "Olamaz!! Toplant\u0131y\u0131 unuttun!!"
+  optionText1: "Asans\xF6re ko\u015F!"
+  resultTitle1: "Phew, ucuz y\u0131rtt\u0131n\u2026"
+  resultDescription1: "-5 \u0130\u015F \t\t\t+5 Para"
+  workLoad1: -5
+  money1: 5
+  optionText2: "Merdivenlere ko\u015F!"
+  resultTitle2: "Yeni ofis tak\u0131m\u0131 ta\u015F\u0131n\u0131yor!! Art\u0131k
+    toplant\u0131y\u0131 da kap\u0131dan dinlersin..."
+  resultDescription2: "+5 \u0130\u015F"
+  workLoad2: 5
+  money2: 0

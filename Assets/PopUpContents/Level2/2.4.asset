@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 2.4
+  m_EditorClassIdentifier: 
+  level: 2
+  title: "Annenin do\u011Fum g\xFCn\xFC!"
+  description: "E bir arars\u0131n art\u0131k."
+  optionText1: Anneni ara
+  resultTitle1: "Gelecek haftaym\u0131\u015F, san\u0131r\u0131m annen sana bunu unutturmayacak\u2026"
+  resultDescription1: "+10 \u0130\u015F"
+  workLoad1: 10
+  money1: 0
+  optionText2: "Ak\u015Fam hediye al\u0131p u\u011Frars\u0131n"
+  resultTitle2: "Avvv, hat\u0131rlad\u0131n demek!"
+  resultDescription2: -10 Para
+  workLoad2: 0
+  money2: -10

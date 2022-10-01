@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 1.3
+  m_EditorClassIdentifier: 
+  level: 1
+  title: "Ka\u011F\u0131t Kalmad\u0131!"
+  description: "Ofiste nas\u0131l ka\u011F\u0131t kalmaz, \u015Fimdi ne yapaca\u011F\u0131z?"
+  optionText1: "Ka\u011F\u0131t havlular daha bitmedi"
+  resultTitle1: "Ka\u011F\u0131t havlular\u0131n yaz\u0131c\u0131ya girip girmedi\u011Fi
+    test edildi."
+  resultDescription1: "+5 \u0130\u015F \t\t\t+5 Para"
+  workLoad1: 5
+  money1: 5
+  optionText2: Humbledoor nerede?
+  resultTitle2: "Humbledoorun \xE7ay keyfini bozdun, oldu mu hi\xE7? En az\u0131ndan
+    ka\u011F\u0131t problemi \xE7\xF6z\xFCld\xFC\u2026"
+  resultDescription2: "-5 \u0130\u015F"
+  workLoad2: -5
+  money2: 0
