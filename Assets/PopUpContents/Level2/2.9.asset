@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 2.9
   m_EditorClassIdentifier: 
   level: 2
-  title: "Nemo a\xE7 g\xF6z\xFCk\xFCyor"
-  description: "Mutlu bal\u0131k mutlu i\u015F ortam\u0131 demektir."
-  optionText1: Nemoyu besle
-  resultTitle1: "Nemo ileri geri y\xFCz\xFCyor, \xE7ok tatl\u0131!"
+  title: "Deniz suyu cilde iyi geliyormu\u015F"
+  description: "Sivilceler ve siyah noktalar\u0131na bay bay de!"
+  optionText1: "Ya\u015F\u0131n ka\xE7 16 m\u0131?"
+  resultTitle1: "Ke\u015Fke, en az\u0131ndan o zamanlar sa\xE7\u0131n vard\u0131."
   resultDescription1: "-5 \u0130\u015F"
   workLoad1: -5
   money1: 0
-  optionText2: "\u015Eimdi de\u011Fil"
-  resultTitle2: "Nemo \xFCzg\xFCn \xFCzg\xFCn y\xFCz\xFCyor."
-  resultDescription2: "-5 \u0130\u015F\t\t\t+5 Para"
-  workLoad2: -5
-  money2: 5
+  optionText2: "Tuzlu su da ayn\u0131 \u015Fey de\u011Fil mi?"
+  resultTitle2: "San\u0131r\u0131m cildin yan\u0131yor, Eda Han\u0131m yemekhane
+    tuzunu bitirdi\u011Fini duymas\u0131n"
+  resultDescription2: -5 Para
+  workLoad2: 0
+  money2: -5

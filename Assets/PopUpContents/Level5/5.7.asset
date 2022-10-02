@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 5.7
+  m_EditorClassIdentifier: 
+  level: 5
+  title: "Ekstra mesaiye kalanlar ofisin hayaletli oldu\u011Funu s\xF6ylediler"
+  description: "Bu konuda ne yapaca\u011F\u0131n\u0131 hi\xE7 bilmiyorsun\u2026"
+  optionText1: "Normal i\u015Fine devam et"
+  resultTitle1: "Bir ses duydu\u011Funa yemin edebilirsin"
+  resultDescription1: "+10 \u0130\u015F\t\t\t-5 Para"
+  workLoad1: 10
+  money1: -5
+  optionText2: "Bu i\u015Fin derinine inip gizemi \xE7\xF6z!"
+  resultTitle2: "Bu hayaletin sonraki hayata ge\xE7mesine bir tek sen yard\u0131mc\u0131
+    olabilirsin! Y\xFCr\xFC be!"
+  resultDescription2: "+5 \u0130\u015F\t\t\t+5 Para"
+  workLoad2: 5
+  money2: 5

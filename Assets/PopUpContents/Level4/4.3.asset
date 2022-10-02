@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 4.3
+  m_EditorClassIdentifier: 
+  level: 4
+  title: Deprem miydi O?
+  description: "Off, depremde araban korkun\xE7 hasar g\xF6rd\xFC"
+  optionText1: "Ama sen sigortalatm\u0131\u015Ft\u0131n!!"
+  resultTitle1: "Ya sen nesin? Harika falan m\u0131s\u0131n?"
+  resultDescription1: "-15 \u0130\u015F"
+  workLoad1: -15
+  money1: 0
+  optionText2: "Al i\u015Fte"
+  resultTitle2: "Art\u0131k tatili r\xFCyalar\u0131nda g\xF6r\xFCrs\xFCn"
+  resultDescription2: -40 Para
+  workLoad2: 0
+  money2: -40

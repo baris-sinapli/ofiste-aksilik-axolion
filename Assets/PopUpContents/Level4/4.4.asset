@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 4.4
+  m_EditorClassIdentifier: 
+  level: 4
+  title: "Humbledoor hastaym\u0131\u015F"
+  description: "Her yer le\u015F gibi\u2026\r"
+  optionText1: "\u0130\u015F ba\u015Fa d\xFC\u015Ft\xFC"
+  resultTitle1: "Her \u015Feyi daha da berbat ettin, kimse bir Humbledoor olamaz
+    san\u0131r\u0131m"
+  resultDescription1: "+10 \u0130\u015F"
+  workLoad1: 10
+  money1: 0
+  optionText2: "G\xF6zlerini kapat"
+  resultTitle2: "Bakmazsan yoktur de\u011Fil mi?"
+  resultDescription2: "+5 \u0130\u015F"
+  workLoad2: 5
+  money2: 0

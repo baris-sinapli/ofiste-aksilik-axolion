@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 5.1
+  m_EditorClassIdentifier: 
+  level: 5
+  title: "D\u0131\u015F d\xFCnyadan haber!"
+  description: "D\xFCnya nihayet uzayl\u0131larla kar\u015F\u0131la\u015Ft\u0131
+    haberleri yay\u0131l\u0131yor!"
+  optionText1: "Uzay gemilerini sigortalat\u0131n"
+  resultTitle1: "San\u0131r\u0131m uzayl\u0131larla ilk defa i\u015Fe sen girdin!
+    Wow!"
+  resultDescription1: "-15 \u0130\u015F"
+  workLoad1: -15
+  money1: 0
+  optionText2: "Saklanma zaman\u0131!"
+  resultTitle2: Etraf durulana kadar sessizce beklemek gerek
+  resultDescription2: "+10 \u0130\u015F\t\t\t+5 Para"
+  workLoad2: 10
+  money2: 5

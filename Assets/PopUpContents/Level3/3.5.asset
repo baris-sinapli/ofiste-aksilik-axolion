@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 3.5
+  m_EditorClassIdentifier: 
+  level: 3
+  title: "\xD6\u011Fle yeme\u011Fi gecikti"
+  description: "San\u0131r\u0131m a\xE7l\u0131ktan deliriceksin\u2026"
+  optionText1: Biraz daha bekle
+  resultTitle1: "Ve evet! Yemek haz\u0131rm\u0131\u015F! Yum"
+  resultDescription1: "-5 \u0130\u015F\t\t\t+5 Para"
+  workLoad1: -5
+  money1: 5
+  optionText2: "San\u0131r\u0131m ge\xE7en g\xFCnden kalan tost duruyor"
+  resultTitle2: "Ve san\u0131r\u0131m zehirlendin. Ge\xE7mi\u015F olsun"
+  resultDescription2: "+5 \u0130\u015F\t\t\t-5 Para"
+  workLoad2: 5
+  money2: -5

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 3.10
+  m_EditorClassIdentifier: 
+  level: 3
+  title: "Nemo\u2019nun akvaryumu ye\u015Fermi\u015F"
+  description: "Bu konuda erkenden bir \u015Feyler yapsan iyi olur"
+  optionText1: Akvaryumu temizle
+  resultTitle1: "Mutlu bal\u0131k, mutlu ofis!"
+  resultDescription1: "-5 \u0130\u015F\t\t\t-5 Para"
+  workLoad1: -5
+  money1: -5
+  optionText2: Sonra halledersin
+  resultTitle2: "Nemo nefes alam\u0131yor gibi duruyor"
+  resultDescription2: "-10 \u0130\u015F"
+  workLoad2: -10
+  money2: 0

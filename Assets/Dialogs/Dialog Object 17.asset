@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a97c4794bb1aaa2489000d90bb14b0a1, type: 3}
+  m_Name: Dialog Object 17
+  m_EditorClassIdentifier: 
+  sprite: 5
+  text: "<color=#00D109>Ama hatalar\u0131ndan ders al\u0131p planlar\u0131n\u0131
+    yeni durumlara adapte edebilirsen\u2026</color>"

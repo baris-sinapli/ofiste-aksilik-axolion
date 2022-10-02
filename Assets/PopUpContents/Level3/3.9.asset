@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 3.9
+  m_EditorClassIdentifier: 
+  level: 3
+  title: "Ofiste salg\u0131n var"
+  description: "Bahar salg\u0131n\u0131 oldu\u011Funa eminsin\u2026Ama?"
+  optionText1: MASKE ZAMANI!
+  resultTitle1: "Bu zor g\xFCnlerde masken ve sen beraber ya\u015Famaya mecbursunuz"
+  resultDescription1: "-10 \u0130\u015F\t\t\t+10 Para"
+  workLoad1: -10
+  money1: 10
+  optionText2: "Kimseye yak\u0131n oturmuyorsun zaten"
+  resultTitle2: "Sanki bu hasta olmay\u0131 engelleyebilirmi\u015F gibi, ge\xE7mi\u015F
+    olsun"
+  resultDescription2: "+10 \u0130\u015F"
+  workLoad2: 10
+  money2: 0

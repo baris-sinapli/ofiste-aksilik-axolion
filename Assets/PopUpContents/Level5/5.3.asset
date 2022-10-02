@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 5.3
+  m_EditorClassIdentifier: 
+  level: 5
+  title: "Ak\u015Fam mesaisinde y\u0131ld\u0131z kayd\u0131!"
+  description: "\xC7abuk dilek tut! \xC7abuk!\r"
+  optionText1: "Daha \xE7ok para"
+  resultTitle1: "Bunlara cidden inanm\u0131yorsundur umar\u0131m\u2026"
+  resultDescription1: -10 Para
+  workLoad1: 0
+  money1: -10
+  optionText2: "Daha az i\u015F"
+  resultTitle2: "Bunlara cidden inanm\u0131yorsundur umar\u0131m\u2026"
+  resultDescription2: "+10 \u0130\u015F"
+  workLoad2: 10
+  money2: 0

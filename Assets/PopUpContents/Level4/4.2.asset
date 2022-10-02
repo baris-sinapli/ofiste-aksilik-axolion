@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 4.2
+  m_EditorClassIdentifier: 
+  level: 4
+  title: "Fareler internet kablolar\u0131n\u0131 kemirmi\u015F\r"
+  description: "Serverlara ula\u015Fam\u0131yorsun"
+  optionText1: "Kendi internetini ba\u011Fla"
+  resultTitle1: "Bu ne sadakat! Di\u011Fer \xE7al\u0131\u015Fanlar yapmaz bak"
+  resultDescription1: "-10 \u0130\u015F"
+  workLoad1: -10
+  money1: 0
+  optionText2: "Bir yerlerde peynir vard\u0131 san\u0131r\u0131m"
+  resultTitle2: "Aww, baya uslu canl\u0131lar asl\u0131nda a\xE7 de\u011Fillerse"
+  resultDescription2: "-5 \u0130\u015F\t\t\t-5 Para"
+  workLoad2: -5
+  money2: -5

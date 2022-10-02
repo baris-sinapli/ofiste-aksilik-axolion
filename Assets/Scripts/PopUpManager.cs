@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class PopUpManager : MonoBehaviour
@@ -13,6 +14,14 @@ public class PopUpManager : MonoBehaviour
     [SerializeField] private GameObject popUpResultMessage;
     [SerializeField] private Slider workloadSlider;
     [SerializeField] private Slider moneySlider;
+    [SerializeField] private BackgroundManager bgManager;
+
+    [Header("Ending Scene")]
+    [SerializeField] private GameObject endingUI;
+    [SerializeField] private Image endingImage;
+    [SerializeField] private TextMeshProUGUI endingText;
+    [SerializeField] private Sprite[] endingSprites;
+
 
     [Header("Pop-up Timer")]
     
@@ -67,25 +76,58 @@ public class PopUpManager : MonoBehaviour
         // Step 2: If timer ready, show Pop-up after click screen
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
+                Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
 
-            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-            if (hit.collider != null)
-            {
-                if (hit.collider.gameObject.tag == "warning")
+                RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
+                if (hit.collider != null)
                 {
-                    ShowPopUp();
-                    PrintPopUp(); // Step 3: Print random pop-up object on screen
-                    remainingTime = waitingAmount;
+                    if (hit.collider.gameObject.tag == "warning")
+                    {
+                        ShowPopUp();
+                        PrintPopUp(); // Step 3: Print random pop-up object on screen
+                        remainingTime = waitingAmount;
+                    }
                 }
-            }
         }
 
-        
+        CheckEnding();
 
-        // Step 6: Reset the timer to give alert
+    }
 
+    private void CheckEnding()
+    {
+        if (workloadSlider.value >= 106)
+        {
+            endingUI.SetActive(true);
+            endingUI.GetComponent<Animator>().SetTrigger("Ending");
+            endingText.text = "BAÞARAMADIN...\nÝþ yoðunluðundan tatile çýkamadýn";
+            endingImage.sprite = endingSprites[0];
+        }
+        if (moneySlider.value <= 5)
+        {
+            endingUI.SetActive(true);
+            endingUI.GetComponent<Animator>().SetTrigger("Ending");
+            endingText.text = "BAÞARAMADIN...\nParasýzlýktan dýþarý adým atamýyorsun";
+            endingImage.sprite = endingSprites[1];
+        }
+        if (workloadSlider.value <= 10f)
+        {
+            if (moneySlider.value >= 120f)
+            {
+                endingUI.SetActive(true);
+                endingUI.GetComponent<Animator>().SetTrigger("Ending");
+                endingText.text = "BAÞARDIN...\nTatilin tadýný çýkar!";
+                endingImage.sprite = endingSprites[2];
+            }
+            else
+            {
+                endingUI.SetActive(true);
+                endingUI.GetComponent<Animator>().SetTrigger("Ending");
+                endingText.text = "BAÞARAMADIN...\nÝþleri hallettin ama yeterli paran yok!";
+                endingImage.sprite = endingSprites[3];
+            }
+        }
     }
 
     private void PrintPopUp()
@@ -180,7 +222,7 @@ public class PopUpManager : MonoBehaviour
         changeOfWorkloadSlider = selectedPopUp.workLoad2;
     }
 
-    // Step 5: After closing the results screen, update progress bars
+    // Step 5: After closing the results screen, update progress bars & day stage
     public void CloseResultPopup()
     {
         popUpPanel.SetActive(false);
@@ -189,7 +231,8 @@ public class PopUpManager : MonoBehaviour
         StartCoroutine(LerpSlider(workloadSlider, changeOfWorkloadSlider, 2f));
         StartCoroutine(LerpSlider(moneySlider, changeOfMoneySlider, 2f));
 
-        isTimerActive = true;
+        StartCoroutine(ChangeBackground());
+        isTimerActive = true; // Step 6: Reset the timer to give alert
     }
 
     private IEnumerator LerpSlider(Slider slider, float amount, float seconds)
@@ -204,6 +247,11 @@ public class PopUpManager : MonoBehaviour
             slider.value = Mathf.Lerp(currentValue, currentValue + amount, lerpValue);
             yield return null;
         }
+    }
+    private IEnumerator ChangeBackground()
+    {
+        yield return new WaitForSeconds(waitingAmount);
+        bgManager.NextStage();
     }
 
 }

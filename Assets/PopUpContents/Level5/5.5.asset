@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 5.5
+  m_EditorClassIdentifier: 
+  level: 5
+  title: "\u0130nternette zombi istilas\u0131na dair bir haber duydun"
+  description: "\xC7ok tuhaf, umar\u0131m ciddi de\u011Fillerdir."
+  optionText1: "\u0130nternetten hayatta kalma kiti al"
+  resultTitle1: "Kendini kaz\u0131klanmad\u0131\u011F\u0131na ikna etmekte iyi \u015Fanslar"
+  resultDescription1: -10 Para
+  workLoad1: 0
+  money1: -10
+  optionText2: "Sigorta reklam\u0131 yapmak i\xE7in bir f\u0131rsat!"
+  resultTitle2: "Oh wow, insan bir nefes al\u0131r"
+  resultDescription2: "-10 \u0130\u015F"
+  workLoad2: -10
+  money2: 0

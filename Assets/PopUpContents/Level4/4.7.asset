@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 4.7
+  m_EditorClassIdentifier: 
+  level: 4
+  title: "G\xF6kta\u015F\u0131 ya\u011Fmuru"
+  description: "Ofisin cam\u0131ndan i\xE7eri k\xFC\xE7\xFCk bir meteor d\xFC\u015Ft\xFC\r"
+  optionText1: Meteoru sat
+  resultTitle1: "Uzay ta\u015F\u0131 ne de olsa, birilerinin dikkatini \xE7ekmi\u015Ftir
+    elbette"
+  resultDescription1: +10 Para
+  workLoad1: 0
+  money1: 10
+  optionText2: "Ofisi temizle\r"
+  resultTitle2: "Yine sana i\u015F \xE7\u0131kt\u0131..."
+  resultDescription2: "+5 \u0130\u015F"
+  workLoad2: 5
+  money2: 0

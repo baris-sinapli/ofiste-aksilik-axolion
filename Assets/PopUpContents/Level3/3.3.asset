@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 3.3
+  m_EditorClassIdentifier: 
+  level: 3
+  title: "Kulakl\u0131\u011F\u0131n bozuldu"
+  description: "M\xFCzik dinlemeden \xE7al\u0131\u015Fabilecek misin?"
+  optionText1: "Kendi kendine m\u0131r\u0131ldan"
+  resultTitle1: "M\xFCzik kafanda bitendir, de\u011Fil mi?"
+  resultDescription1: "-5 \u0130\u015F"
+  workLoad1: -5
+  money1: 0
+  optionText2: "\xC7al\u0131\u015Famazs\u0131n"
+  resultTitle2: "Eeee? Yani tamam\u2026"
+  resultDescription2: "+10 \u0130\u015F"
+  workLoad2: 10
+  money2: 0

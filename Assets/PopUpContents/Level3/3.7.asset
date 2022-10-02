@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 3.7
+  m_EditorClassIdentifier: 
+  level: 3
+  title: "\u015Eirket sald\u0131r\u0131ya u\u011Fruyor!!!"
+  description: "Ne yapman laz\u0131m!!"
+  optionText1: "T\xFCm hayat\u0131n boyunca bu an i\xE7in haz\u0131rland\u0131n!!"
+  resultTitle1: "Sald\u0131rganlar neye u\u011Frad\u0131\u011F\u0131n\u0131 \u015Fa\u015F\u0131rd\u0131lar!
+    Bu ne yetenek!!"
+  resultDescription1: "-5 \u0130\u015F\t\t\t+15 Para"
+  workLoad1: -5
+  money1: 15
+  optionText2: Polisleri bekle
+  resultTitle2: "(Isl\u0131k sesi)"
+  resultDescription2: -10 Para
+  workLoad2: 0
+  money2: -10

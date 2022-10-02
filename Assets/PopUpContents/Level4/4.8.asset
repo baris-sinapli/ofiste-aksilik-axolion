@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 4.8
+  m_EditorClassIdentifier: 
+  level: 4
+  title: "Ofiste kavga \xE7\u0131kt\u0131!"
+  description: "Olamaz! Korkun\xE7 bir \u015Feyler ya\u015Fanacak!"
+  optionText1: "Kavgay\u0131 ay\u0131r"
+  resultTitle1: "Koskoca insanlara yak\u0131\u015F\u0131yor mu hi\xE7! Hem son kurabiyeyi
+    de sen yemi\u015Ftin\u2026"
+  resultDescription1: " -5 \u0130\u015F\t\t\t+5 Para"
+  workLoad1: -5
+  money1: 5
+  optionText2: "Ay\u0131ran\u0131 d\xF6v"
+  resultTitle2: "\u0130ki e\u011Flencen var, onu da bozanla sen kavga \xE7\u0131kar\u0131rs\u0131n\u2026"
+  resultDescription2: "+5 \u0130\u015F"
+  workLoad2: 5
+  money2: 0

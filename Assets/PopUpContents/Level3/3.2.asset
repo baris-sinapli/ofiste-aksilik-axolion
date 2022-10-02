@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 3.2
+  m_EditorClassIdentifier: 
+  level: 3
+  title: "D\xDC\xDC\xDC\xDC\xDC\xDC\xDC\xDC\xDC\xFC\xFC\xFC\xFC\xFCt"
+  description: AAAAAAAA!!
+  optionText1: AAAAAAAA!!!
+  resultTitle1: "San\u0131r\u0131m kalbin durdu, bir hastaneye u\u011Frasan iyi olur"
+  resultDescription1: -10 Para
+  workLoad1: 0
+  money1: -10
+  optionText2: Bu da ne?
+  resultTitle2: "Biri sandalyene bisiklet kornas\u0131 koymu\u015F, Humbledoor'dan
+    \u015F\xFCpheleniyorsun"
+  resultDescription2: "+5 \u0130\u015F"
+  workLoad2: 5
+  money2: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 3.8
+  m_EditorClassIdentifier: 
+  level: 3
+  title: "Sevil sana bir\u2026 farkl\u0131 bak\u0131yor?"
+  description: "Yeni parf\xFCm\xFCn\xFC m\xFC fark etti?"
+  optionText1: "G\xF6z k\u0131rp ;)"
+  resultTitle1: "Sevil'in y\xFCz\xFC ek\u015Fidi, senin de moralin bozuldu"
+  resultDescription1: "+5 \u0130\u015F"
+  workLoad1: 5
+  money1: 0
+  optionText2: "\u0130\u015Fine devam et"
+  resultTitle2: "Sevil'in karizmandan mest oldu\u011Funu hissettin"
+  resultDescription2: "-5 \u0130\u015F"
+  workLoad2: -5
+  money2: 0

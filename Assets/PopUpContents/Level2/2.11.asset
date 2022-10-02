@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 2.11
+  m_EditorClassIdentifier: 
+  level: 2
+  title: "O kokan \u015Fey ne?"
+  description: "San\u0131r\u0131m en alt \xE7ekmecede bir\u015Feyler \xF6lm\xFC\u015F."
+  optionText1: "A\xE7mana gerek yok bence"
+  resultTitle1: "Koku giderek korkun\xE7 oluyor, san\u0131r\u0131m bay\u0131lacaks\u0131n."
+  resultDescription1: "+5 \u0130\u015F"
+  workLoad1: 5
+  money1: 0
+  optionText2: "\xC7ekmeceyi a\xE7"
+  resultTitle2: "Islak para buldun! Biraz yumu\u015F yumu\u015F olmu\u015F ama olsun."
+  resultDescription2: -15 Para
+  workLoad2: 0
+  money2: -15

@@ -13,16 +13,15 @@ MonoBehaviour:
   m_Name: 2.10
   m_EditorClassIdentifier: 
   level: 2
-  title: Elektrikler gitti!
-  description: "T\xFCm ofisin elektrikleri gitti!"
-  optionText1: "Uyuma zaman\u0131"
-  resultTitle1: "Yeni ofis koltuklar\u0131n\u0131 deneme zaman\u0131! Dinlenmi\u015F
-    olarak i\u015Fe geri d\xF6neceksin!"
-  resultDescription1: "-10 \u0130\u015F"
-  workLoad1: -10
+  title: "O kokan \u015Fey ne?"
+  description: "San\u0131r\u0131m en alt \xE7ekmecede bir\u015Feyler \xF6lm\xFC\u015F."
+  optionText1: "A\xE7mana gerek yok bence"
+  resultTitle1: "Humbledoor bir ara bakar, sen i\u015Fine bak."
+  resultDescription1: "-5 \u0130\u015F"
+  workLoad1: -5
   money1: 0
-  optionText2: "Kar\u015F\u0131 kafede internet var!"
-  resultTitle2: "Gittin ama g\xFCr\xFClt\xFCden dolay\u0131 pek de verimli \xE7al\u0131\u015Famad\u0131n"
-  resultDescription2: "-5 \u0130\u015F\t\t\t-5 Para"
-  workLoad2: -5
+  optionText2: "\xC7ekmeceyi a\xE7"
+  resultTitle2: "UF! Bir daha haz\u0131r sandvi\xE7 paketlerini buraya koymasan m\u0131?!"
+  resultDescription2: "10 \u0130\u015F\t\t\t-5 Para"
+  workLoad2: 10
   money2: -5

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe9aea864ad5684d98fb495f4fc4cf7, type: 3}
+  m_Name: 4.5
+  m_EditorClassIdentifier: 
+  level: 4
+  title: "Terfi dedikodusu ortalarda dola\u015F\u0131yor"
+  description: "Bu terfi ger\xE7ekten tatil birikimi i\xE7in \xE7ok i\u015Fine yarard\u0131\u2026"
+  optionText1: "Daha \xE7ok \xE7al\u0131\u015F\u0131p kendini g\xF6ster"
+  resultTitle1: "Terfiyi alamad\u0131n ama, i\u015Fin baya azald\u0131. Ad\u0131na
+    sevindim!"
+  resultDescription1: "-15 \u0130\u015F"
+  workLoad1: -15
+  money1: 0
+  optionText2: "Daha \u015F\u0131k giyinip kendini g\xF6ster"
+  resultTitle2: "Off, ne bu karizma? Bu kadar az maa\u015F al\u0131yor olamaz oras\u0131
+    kesin"
+  resultDescription2: +20 Para
+  workLoad2: 0
+  money2: 20

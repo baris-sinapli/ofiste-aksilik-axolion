@@ -13,16 +13,15 @@ MonoBehaviour:
   m_Name: 2.7
   m_EditorClassIdentifier: 
   level: 2
-  title: "Toplant\u0131!"
-  description: "Olamaz!! Toplant\u0131y\u0131 unuttun!!"
-  optionText1: "Asans\xF6re ko\u015F!"
-  resultTitle1: "Phew, ucuz y\u0131rtt\u0131n\u2026"
-  resultDescription1: "-5 \u0130\u015F \t\t+5 Para"
-  workLoad1: -5
+  title: "...S\u0131k\u0131ld\u0131n"
+  description: "Yapacak hi\xE7bir \u015Fey yok gibi\u2026"
+  optionText1: "Sandalyende d\xF6n"
+  resultTitle1: "Wuhii!! \xC7ok e\u011Flenceli!"
+  resultDescription1: +5 Para
+  workLoad1: 0
   money1: 5
-  optionText2: "Merdivenlere ko\u015F!"
-  resultTitle2: "Yeni ofis tak\u0131m\u0131 ta\u015F\u0131n\u0131yor!! Art\u0131k
-    toplant\u0131y\u0131 da kap\u0131dan dinlersin..."
-  resultDescription2: "+5 \u0130\u015F"
-  workLoad2: 5
-  money2: 0
+  optionText2: "Eee \u0130\u015F?"
+  resultTitle2: "San\u0131r\u0131m boynun tutuldu."
+  resultDescription2: -5 Para
+  workLoad2: 0
+  money2: -5
